@@ -1,8 +1,7 @@
 {
-    "name": "edu",
+    "name": "peel",
     "version": "0.0.1",
     "dependencies": {
-        "jade": "~0.28.x",
         "stylus": "~0.32.x",
         "nib": "~0.9.1"
     },
@@ -31,5 +30,5 @@
     "engines": {
         "node": "0.8.x"
     },
-    "private": true
+    "private": false
 }
