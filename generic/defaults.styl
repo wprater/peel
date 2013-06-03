@@ -4,9 +4,9 @@
 //
 // Base stuff
 //
-base-font-size=   16
+base-font-size   = 16
 
-base-line-height= 24
+base-line-height = 24
 
 base-
 -height: 24px
@@ -71,8 +71,8 @@ micro-size:       10px
 base-spacing-unit 
     base-line-height
 
-half-spacing-unit 
-    base-spacing-unit/2
+half-spacing-unit(base-spacing-unit=x)
+    (x/2)
 
-line-height-ratio 
-    base-line-height / base-font-size
+line-height-ratio(base-line-height = x, base-font-size = y)
+    x/y
