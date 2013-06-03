@@ -65,6 +65,11 @@ An OOCSS BEM based Stylus framework
 - Helper
 - Debug
 
+## Compatibility
+Chrome
+Firefox
+IE 10
+
 ## Credit
 [Harry Roberts](https://github.com/csswizardry) for the inuit.css framework
 
