@@ -8,8 +8,8 @@ module.exports = function(grunt) {
     files: {
       grunt: ['gruntfile.js'],
       js:    ['js/*.js', 'js/**/*.js'],
-      css:   ['css/*.css']
-      styl:  ['peel.styl'],
+      css:   ['css/*.css'],
+      styl:  ['peel.styl']
     },
 
     jshint: {
