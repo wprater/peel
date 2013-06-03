@@ -67,7 +67,9 @@ An OOCSS BEM based Stylus framework
 
 ## Compatibility
 Chrome
+
 Firefox
+
 IE 10
 
 ## Credit
