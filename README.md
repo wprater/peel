@@ -1,7 +1,9 @@
 # peel
 
 
-An OOCSS BEM based Stylus framework 
+An OOCSS BEM based [Stylus](http://github.com/learnboost/stylus) framework 
+
+This framework aims to move to [Styl](http://github.com/visionmedia/styl) once the font calculations are built (probably a plugin)
 
 ## Structure
 
