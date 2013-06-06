@@ -8,18 +8,19 @@ base-font-size   = 16
 
 base-line-height = 24
 
-base-
--height: 24px
+base-spacing-unit = 24
+
+base-height=        24px
 
 //
 // Base font-family.
 //
-base-font-family: sans-serif
+base-font-family=  sans-serif
 
 //
 // Default colour for objects’ borders etc.
 //
-base-ui-color:    #ccc
+base-ui-color =    #ccc
 
 
 
@@ -61,9 +62,7 @@ micro-size =      10px
 //------------------------------------
 //  FRAMEWORK
 //-----------------------------------
-base-line-height = base-spacing-unit
-
-half-spacing-unit(base-line-height = x)
+half-spacing-unit(x=base-line-height)
     (base-line-height / 2)
 
 line-height-ratio = 1.5

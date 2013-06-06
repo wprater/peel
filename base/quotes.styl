@@ -6,8 +6,8 @@
 // If English quotes are set in `_vars.scss`, define them here.
 //
 
-open-quote    \201C
-close-quote   \201D
+open-quote=    \201C
+close-quote=   \201D
 
 
 /**
@@ -21,21 +21,21 @@ q
     quotes:"\2018" "\2019" "#$open-quote" "#$close-quote"
 
     &:before
-        content:"\2018"
-        content:open-quote
+        content "\2018"
+        content open-quote
     
     &:after
-        content:"\2019"
-        content:close-quote
+        content "\2019"
+        content close-quote
     
 
     q:before
-        content:"\201C"
-        content:open-quote
+        content "\201C"
+        content open-quote
     
     q:after
-        content:"\201D"
-        content:close-quote
+        content "\201D"
+        content close-quote
     
 
 
@@ -43,25 +43,25 @@ blockquote
     quotes:"#$open-quote" "#$close-quote"
 
     p:before
-        content:"#$open-quote"
-        content:open-quote
+        content "#$open-quote"
+        content open-quote
     
     p:after
-        content:""
-        content:no-close-quote
+        content ""
+        content no-close-quote
     
     p:last-of-type:after
-        content:"#$close-quote"
-        content:close-quote
+        content "#$close-quote"
+        content close-quote
     
 
     q:before
-        content:"\2018"
-        content:open-quote
+        content "\2018"
+        content open-quote
     
     q:after
-        content:"\2019"
-        content:close-quote
+        content "\2019"
+        content close-quote
     
 
 
@@ -79,18 +79,18 @@ blockquote
     /**
      * .4em is roughly equal to the width of the opening “ that we wish to hang.
      */
-    text-indent:-0.41em
+    text-indent -0.41em
 
     p:last-of-type
-        margin-bottom:0
+        margin-bottom 0
     
 
 
 .source
-    display:block
-    text-indent:0
+    display block
+    text-indent 0
 
     &:before
-        content:"\2014"
+        content "\2014"
     
 
