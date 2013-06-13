@@ -1,5 +1,6 @@
 # peel
 
+### This is still a WIP, ~60% done
 
 An OOCSS BEM based [Stylus](http://github.com/learnboost/stylus) framework 
 
@@ -73,6 +74,20 @@ Chrome
 Firefox
 
 IE 10
+
+## Notes
+
+Base
+Layout
+Module
+State
+Theme
+
+p-  page specific
+l-  layout
+c-  components
+u-  utility classes
+js- JS hooks
 
 ## Credit
 [Harry Roberts](https://github.com/csswizardry) for the inuit.css framework
